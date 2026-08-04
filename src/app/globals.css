@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream-50 text-bark-700 font-sans antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+
+  ::selection {
+    @apply bg-olive-200 text-olive-900;
+  }
+}
+
+@layer components {
+  .container-xl {
+    @apply max-w-7xl mx-auto px-6 lg:px-12;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 bg-olive-700 text-cream-50 text-sm font-medium tracking-widest uppercase
+    transition-all duration-300 hover:bg-olive-800 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 border border-bark-500 text-bark-600 text-sm font-medium tracking-widest uppercase
+    transition-all duration-300 hover:bg-bark-500 hover:text-cream-50 hover:-translate-y-0.5;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-sm font-medium tracking-widest uppercase text-olive-700
+    border-b border-olive-400 pb-0.5
+    transition-all duration-300 hover:border-olive-700 hover:text-olive-900;
+  }
+
+  .section-label {
+    @apply text-xs font-medium tracking-widest uppercase text-olive-600 mb-4;
+  }
+
+  .section-title {
+    @apply font-serif text-4xl md:text-5xl leading-tight text-bark-700;
+  }
+
+  .divider {
+    @apply w-16 h-px bg-gold-400 mx-auto my-6;
+  }
+
+  .divider-left {
+    @apply w-16 h-px bg-gold-400 my-6;
+  }
+
+  .img-placeholder {
+    @apply bg-gradient-to-br from-cream-200 to-cream-300 flex items-center justify-center text-bark-400;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
