@@ -184,8 +184,8 @@ export default function ProductsPage() {
             {/* Olive dish lifestyle */}
             <div className="relative h-56 mt-8 overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1559181567-c3190100191b?w=800&q=80"
-                alt="Olive oil drizzled over fresh Mediterranean food"
+                src="/images/olive-branch-moody.jpg"
+                alt="Olives on the branch in warm natural light"
                 fill
                 className="object-cover"
               />

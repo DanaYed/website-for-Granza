@@ -58,7 +58,7 @@ export default function AboutPage() {
       {/* Full-width hero image — terraced Greek olive grove */}
       <div className="relative h-[55vh] min-h-80 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=1600&q=80"
+          src="/images/ancient-olive-tree.jpg"
           alt="Terraced olive groves in Greece"
           fill
           className="object-cover"
@@ -133,16 +133,16 @@ export default function AboutPage() {
         <div className="grid grid-cols-2 lg:grid-cols-3 h-64 lg:h-80">
           {[
             {
-              src: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=700&q=80",
-              alt: "Ripe green olives on the branch",
+              src: "/images/olives-harvest-mixed.jpg",
+              alt: "Freshly harvested green and black olives",
             },
             {
-              src: "https://images.unsplash.com/photo-1601599561213-832382fd07ba?w=700&q=80",
-              alt: "Olive harvest in Greece",
+              src: "/images/olive-branch-sunset.jpg",
+              alt: "Olive branch backlit at sunset",
             },
             {
-              src: "https://images.unsplash.com/photo-1543362906-acfc16c67564?w=700&q=80",
-              alt: "Olive grove with sunlight through the trees",
+              src: "/images/olive-tree-field.jpg",
+              alt: "Olive tree in a Mediterranean field",
             },
           ].map((img, i) => (
             <div
@@ -192,7 +192,7 @@ export default function AboutPage() {
       {/* Greece landscape full-bleed */}
       <section className="relative h-[45vh] min-h-64 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1555993539-1732b0258235?w=1600&q=80"
+          src="/images/greece-parthenon.jpg"
           alt="The Greek landscape — Aegean light over olive country"
           fill
           className="object-cover"

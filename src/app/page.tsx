@@ -117,8 +117,8 @@ export default function HomePage() {
               alt: "Granza olive oil bottles in Greek setting",
             },
             {
-              src: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80",
-              alt: "Ripe olives on the branch",
+              src: "/images/olives-harvest-green.jpg",
+              alt: "Freshly harvested green olives",
             },
           ].map((img, i) => (
             <div key={i} className="relative overflow-hidden group">
@@ -225,7 +225,7 @@ export default function HomePage() {
                 name="Gift Set [Coming Soon]"
                 subtitle="Premium Gift"
                 volume="2 × 500ml · Product of Greece"
-                imageSrc="https://images.unsplash.com/photo-1596363505729-4190a9506133?w=600&q=80"
+                imageSrc="/images/olive-oil-bottle.jpg"
               />
             </AnimatedSection>
           </div>
@@ -256,7 +256,7 @@ export default function HomePage() {
       {/* Olive Branch Accent Section */}
       <section className="relative py-0 overflow-hidden h-64 lg:h-80">
         <Image
-          src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=1600&q=80"
+          src="/images/olive-branch-hills.jpg"
           alt="Close-up of olive branches with ripe olives"
           fill
           className="object-cover"
@@ -297,7 +297,7 @@ export default function HomePage() {
             className="relative h-96 overflow-hidden"
           >
             <Image
-              src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=900&q=80"
+              src="/images/olive-grove-row.jpg"
               alt="Terraced olive groves on Greek hillside"
               fill
               className="object-cover"

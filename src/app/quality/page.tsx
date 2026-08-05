@@ -87,7 +87,7 @@ export default function QualityPage() {
         {/* Full-bleed background — olive branches */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=1600&q=80"
+            src="/images/olive-branch-soft.jpg"
             alt="Close-up of olive branches"
             fill
             className="object-cover"
@@ -147,20 +147,20 @@ export default function QualityPage() {
       <section className="grid grid-cols-2 lg:grid-cols-4 h-48 lg:h-64 overflow-hidden">
         {[
           {
-            src: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
-            alt: "Green olives on the branch",
+            src: "/images/olives-harvest-green.jpg",
+            alt: "Freshly harvested green olives",
           },
           {
             src: "/images/lifestyle-3.jpg",
             alt: "Granza bottles in natural setting",
           },
           {
-            src: "https://images.unsplash.com/photo-1601599561213-832382fd07ba?w=600&q=80",
-            alt: "Olive harvest",
+            src: "/images/olive-branch-white.jpg",
+            alt: "Olive branch on a soft neutral background",
           },
           {
-            src: "https://images.unsplash.com/photo-1563252722-6434563a985d?w=600&q=80",
-            alt: "Olive oil being poured",
+            src: "/images/olives-roadside.jpg",
+            alt: "Olives ripening on the branch beside a grove",
           },
         ].map((img, i) => (
           <div key={i} className="relative overflow-hidden group">
@@ -241,8 +241,8 @@ export default function QualityPage() {
             </div>
             <div className="relative h-64 overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1559181567-c3190100191b?w=800&q=80"
-                alt="Premium olive oil drizzle"
+                src="/images/olives-green-branch.jpg"
+                alt="Close-up of green olives on the branch"
                 fill
                 className="object-cover"
               />
