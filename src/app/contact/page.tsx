@@ -1,6 +1,6 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import ContactForm from "@/components/ContactForm";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -41,8 +41,8 @@ export default function ContactPage() {
                   {
                     icon: <Mail size={18} />,
                     label: "Email",
-                    value: "hello@granzashop.com",
-                    href: "mailto:hello@granzashop.com",
+                    value: "support@granzashop.com",
+                    href: "mailto:support@granzashop.com",
                   },
                   {
                     icon: <Phone size={18} />,
@@ -85,10 +85,10 @@ export default function ContactPage() {
                   projected volume.
                 </p>
                 <a
-                  href="mailto:wholesale@granzashop.com"
+                  href="mailto:support@granzashop.com"
                   className="text-xs font-medium tracking-widest uppercase text-olive-700 border-b border-olive-400 pb-0.5 hover:text-olive-900 hover:border-olive-700 transition-colors"
                 >
-                  wholesale@granzashop.com
+                  support@granzashop.com
                 </a>
               </div>
             </AnimatedSection>
@@ -111,14 +111,6 @@ export default function ContactPage() {
               <ContactForm />
             </AnimatedSection>
           </div>
-        </div>
-      </section>
-
-      {/* Map placeholder */}
-      <section className="h-64 bg-cream-200 relative overflow-hidden">
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-bark-300 gap-2">
-          <MapPin size={32} />
-          <span className="text-xs tracking-widest uppercase opacity-60">Map placeholder — embed Google Maps here</span>
         </div>
       </section>
     </>

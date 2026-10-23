@@ -75,7 +75,7 @@ const faqs: { question: string; answer: string }[] = [
     question:
       "Is Granza available for wholesale or restaurant supply?",
     answer:
-      "Yes. We work with restaurants, specialty food retailers, and distributors. Please contact us via the Contact page or email wholesale@granzashop.com and we will respond within 2 business days.",
+      "Yes. We work with restaurants, specialty food retailers, and distributors. Please contact us via the Contact page or email support@granzashop.com and we will respond within 2 business days.",
   },
 ];
 

@@ -126,11 +126,11 @@ export default function ProductsPage() {
             </ul>
 
             <div className="flex gap-4">
-              <a href="mailto:hello@granzashop.com" className="btn-primary">
+              <a href="mailto:support@granzashop.com" className="btn-primary">
                 Inquire to Order
               </a>
               <a
-                href="mailto:wholesale@granzashop.com"
+                href="mailto:support@granzashop.com"
                 className="btn-outline"
               >
                 Wholesale

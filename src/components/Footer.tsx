@@ -48,7 +48,7 @@ export default function Footer() {
               <Facebook size={16} />
             </a>
             <a
-              href="mailto:hello@granzashop.com"
+              href="mailto:support@granzashop.com"
               aria-label="Email"
               className="w-9 h-9 rounded-full border border-cream-400/30 flex items-center justify-center text-cream-300 hover:text-cream-50 hover:border-cream-200 transition-colors"
             >

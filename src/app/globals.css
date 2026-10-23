@@ -68,6 +68,26 @@
   .img-placeholder {
     @apply bg-gradient-to-br from-cream-200 to-cream-300 flex items-center justify-center text-bark-400;
   }
+
+  .prose-granza h2 {
+    @apply font-serif text-2xl text-bark-700 mt-10 mb-3;
+  }
+
+  .prose-granza p {
+    @apply text-bark-500 leading-relaxed mb-4;
+  }
+
+  .prose-granza ul {
+    @apply list-disc list-outside pl-5 mb-4 space-y-1.5 text-bark-500;
+  }
+
+  .prose-granza a {
+    @apply text-olive-700 underline underline-offset-2 hover:text-olive-900 transition-colors;
+  }
+
+  .prose-granza strong {
+    @apply font-medium text-bark-700;
+  }
 }
 
 @layer utilities {

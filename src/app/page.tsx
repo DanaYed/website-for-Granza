@@ -38,23 +38,23 @@ const features = [
 const testimonials = [
   {
     quote:
-      "The moment I opened the bottle I could smell the difference. Granza has completely changed how I cook — and how I think about olive oil.",
-    name: "Sofia M.",
-    role: "Home Chef, Athens",
+      "Ve chvíli, kdy jsem otevřela lahev, ucítila jsem rozdíl. Granza úplně změnila způsob, jakým vařím — a jak přemýšlím o olivovém oleji.",
+    name: "Markéta H.",
+    role: "Domácí kuchařka, Praha",
     rating: 5,
   },
   {
     quote:
-      "We serve Granza at the table as a finishing oil. Our guests always ask where it's from. Nothing else comes close for the price.",
-    name: "Luca B.",
-    role: "Restaurant Owner, Milan",
+      "Granza podáváme u stolu jako finishing olej. Hosté se vždy ptají, odkud pochází. Za tuto cenu nemá konkurenci.",
+    name: "Tomáš K.",
+    role: "Majitel restaurace, Brno",
     rating: 5,
   },
   {
     quote:
-      "I've tried dozens of olive oils from Greece and Spain. Granza stands apart — the flavor is vibrant, grassy, with just the right peppery finish.",
-    name: "Claire T.",
-    role: "Food Blogger, London",
+      "Vyzkoušela jsem desítky olivových olejů z Řecka i Španělska. Granza vyčnívá — chuť je živá, svěží, s přesně takovou pepřovou dochutí, jaká má být.",
+    name: "Lucie B.",
+    role: "Food blogerka, Praha",
     rating: 5,
   },
 ];
